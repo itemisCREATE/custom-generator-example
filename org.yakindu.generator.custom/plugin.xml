@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="com.yakindu.sct.generator.core.generator">
+      <SCTGenerator
+            bindings="org.yakindu.generator.custom.GeneratorModule"
+            keyword="statechart"
+            contentType="com.yakindu.sct.runtime.statecharts"
+            description="YAKINDU Exmple Custom Generator"
+            elementRefType="com.yakindu.sct.model.sgraph.Statechart"
+            executor="com.yakindu.sct.generator.core.execution.SGraphGeneratorEntryExecutor"
+            icon="icons/sct.png"
+            id="yakindu::custom"
+            name="YAKINDU Custom Generator">
+            <Domain
+                  id="com.yakindu.domain.default">
+            </Domain>
+         <FeatureLibrary
+               library_id="com.yakindu.generator.core.features">
+         </FeatureLibrary>
+      </SCTGenerator>
+   </extension>
+</plugin>

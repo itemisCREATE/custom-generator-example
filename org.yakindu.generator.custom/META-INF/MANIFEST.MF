@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Custom Generator Example
+Bundle-SymbolicName: org.yakindu.generator.custom;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: itemis AG
+Automatic-Module-Name: org.yakindu.generator.custom
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Require-Bundle: com.yakindu.sct.generator.core,
+ com.yakindu.sct.model.sgen
